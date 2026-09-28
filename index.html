@@ -1,68 +1,284 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hawkview Games</title>
+
+  <title>Hawkview Games — Play. Challenge. Repeat.</title>
+  <meta name="description" content="Hawkview creates simple, addictive and entertaining games for mobile and web.">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <header class="header">
     <div class="container nav">
-      <div class="logo">Hawkview</div>
-      <a href="privacy.html">Privacy Policy</a>
+
+      <a href="index.html" class="brand">
+        <span class="brand-mark">H</span>
+        <span>HAWKVIEW</span>
+      </a>
+
+      <nav>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+
     </div>
   </header>
 
+
   <main>
+
+    <!-- HERO -->
+
     <section class="hero">
-      <div class="container">
-        <p class="eyebrow">HAWKVIEW GAMES</p>
-        <h1>Simple games.<br>Made to be played.</h1>
-        <p class="hero-text">
-          Hawkview creates simple, entertaining games and interactive experiences
-          for mobile and web.
-        </p>
 
-```
-    <div class="hero-actions">
-      <a class="button" href="#games">Explore Games</a>
-    </div>
-  </div>
-</section>
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
 
-<section class="games" id="games">
-  <div class="container">
-    <p class="section-label">OUR GAMES</p>
-    <h2>Play something simple.</h2>
+      <div class="container hero-content">
 
-    <div class="game-card">
-      <div>
-        <span class="game-tag">ANDROID</span>
-        <h3>Don't Tap Red</h3>
-        <p>
-          Tap the dark dots. Avoid the red one. Keep going before the timer
-          runs out.
-        </p>
+        <div class="hero-copy">
+
+          <div class="pill">
+            <span class="pulse"></span>
+            HAWKVIEW GAMES
+          </div>
+
+          <h1>
+            Games that are
+            <span>simple.</span><br>
+            Games that are
+            <span>hard to stop.</span>
+          </h1>
+
+          <p>
+            We create focused, playful experiences designed around one thing —
+            making you want to play just one more time.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#games" class="button primary">
+              Explore Games
+              <span>↓</span>
+            </a>
+
+            <a href="#about" class="button ghost">
+              About Hawkview
+            </a>
+          </div>
+
+        </div>
+
+
+        <!-- GAME VISUAL -->
+
+        <div class="hero-visual">
+
+          <div class="game-preview">
+
+            <div class="preview-top">
+              <span>DON'T TAP RED</span>
+              <span class="live-dot"></span>
+            </div>
+
+            <div class="game-grid">
+
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot red"></div>
+
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+
+            </div>
+
+            <div class="preview-bottom">
+              <span>SCORE <strong>27</strong></span>
+              <span>TIME <strong>4.6</strong></span>
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
 
-      <a class="button secondary" href="#">
-        Coming Soon
-      </a>
-    </div>
-  </div>
-</section>
-```
+    </section>
+
+
+    <!-- GAMES -->
+
+    <section class="games" id="games">
+
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <div class="section-label">OUR GAMES</div>
+            <h2>Small games.<br><span>Big replay value.</span></h2>
+          </div>
+
+          <p>
+            Carefully designed experiences that are easy to understand,
+            satisfying to play and difficult to master.
+          </p>
+        </div>
+
+
+        <div class="game-card">
+
+          <div class="game-card-visual">
+
+            <div class="mini-grid">
+              <i></i>
+              <i></i>
+              <i class="red-dot"></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+
+          </div>
+
+
+          <div class="game-card-content">
+
+            <div class="game-tag">ANDROID GAME</div>
+
+            <h3>Don't Tap Red</h3>
+
+            <p>
+              Think fast. Tap the dark dots. Avoid the red one.
+              Every successful tap buys you a little more time.
+            </p>
+
+            <div class="game-meta">
+              <span>⚡ Fast-paced</span>
+              <span>🎯 Reflex</span>
+              <span>🏆 High Score</span>
+            </div>
+
+            <a href="#" class="button primary disabled">
+              Coming Soon
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="coming-card">
+
+          <div class="coming-number">02</div>
+
+          <div>
+            <div class="section-label">COMING NEXT</div>
+            <h3>More games are on the way.</h3>
+            <p>
+              New ideas, new challenges and new ways to play.
+            </p>
+          </div>
+
+          <div class="arrow">↗</div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section class="about" id="about">
+
+      <div class="container about-grid">
+
+        <div>
+          <div class="section-label">ABOUT HAWKVIEW</div>
+
+          <h2>
+            Built around
+            <span>play.</span>
+          </h2>
+        </div>
+
+        <div class="about-copy">
+
+          <p>
+            Hawkview is an independent game and software studio focused on
+            creating simple, polished and enjoyable digital experiences.
+          </p>
+
+          <p>
+            We believe a good game doesn't need complicated rules.
+            Sometimes one simple idea is enough.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+      <div class="container">
+
+        <div class="cta-box">
+
+          <div>
+            <div class="section-label">HAWKVIEW</div>
+            <h2>Ready to play?</h2>
+          </div>
+
+          <a href="#games" class="button primary">
+            View Games →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
 
   </main>
 
+
   <footer>
+
     <div class="container footer-content">
-      <span>© 2026 Hawkview</span>
-      <a href="privacy.html">Privacy Policy</a>
+
+      <div class="footer-brand">
+        <span class="brand-mark small">H</span>
+        <span>HAWKVIEW</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+
+      <div class="copyright">
+        © 2026 Hawkview. All rights reserved.
+      </div>
+
     </div>
+
   </footer>
 
 </body>
